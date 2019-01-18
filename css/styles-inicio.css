@@ -1,0 +1,333 @@
+/*FELIZ CUMPLEAÑOS*/
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+p a {
+	text-decoration: none;
+	color: #aaa;
+}
+span {
+	font-size: 11px;
+}
+p > a:first-of-type {
+	font-size: 20px;
+}
+/*FELIZ CUMPLEAÑOS*/
+
+
+/*FUEGOS ARTIFICIALES*/
+/* 
+canvas {
+	cursor: crosshair;
+    display: block
+} */
+/*FUEGOS ARTIFICIALES*/
+
+html
+{
+  position: relative;
+  min-height: 100%;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+    background: #000000;
+    margin: 0;
+    
+    /* Margin bottom by footer height (sticky) */
+    margin-bottom: 80px;
+}
+.select_versions body /*FONDO DEL INDEX PRINCIPAL */
+{
+    /*2000 x 1000*/
+    background: url('../images/fotoinicio15.jpg')
+}
+.backgroundColor body
+{
+    background: #000000; 
+    /* Our flat color for background */
+}
+
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: 300;
+    line-height: normal;
+}
+h1
+{
+    font-size: 45px;
+}
+h1.logo
+{
+    font-size: 45px;
+    padding-top: 0px;
+    font-family: 'Lemon', cursive;
+}
+h2.logo
+{
+    font-family: 'Lemon', cursive;
+}
+h2
+{
+    font-size: 20px;
+}
+h3.logo
+{
+    font-family: 'Lemon', cursive;
+}
+h3
+{
+    font-size: 17px;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+a, button
+{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Sticky footer */
+#footer
+{
+    color: #ffffff;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 100;
+    padding-bottom: 0px;
+}
+
+/* Footer gradient */
+.backgroundImage #footer,
+.backgroundSlider #footer,
+.backgroundVideo #footer
+{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+}
+
+#footer p /*MUEVE EL EMAIL Y EL TELEFONO*/
+{
+    font-size: 16px;
+    margin: 0px;
+}
+
+#footer a
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.slide.cycle-slide
+{
+    width: 100%;
+}
+
+/***BOTON POLITECNICO***/
+
+.btn
+{
+    border-radius: 0px;
+}
+.btn-transparent
+{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active,
+.btn-transparent.active
+{
+  color: #154360;
+  background-color: #D4AC0D;
+  border-color: #ffffff;
+}
+
+/*BOTON ESCUELA*/
+
+.btn-transparentt
+{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.btn-transparentt:hover,
+.btn-transparentt:focus,
+.btn-transparentt:active,
+.btn-transparentt.active
+{
+
+
+  color: #154360;
+  background-color: #FF7043;
+  border-color: #ffffff;
+}
+
+
+/*********************************/
+/********* Placeholder ***********/
+/*********************************/
+.form-control::-webkit-input-placeholder
+{
+   color: #ffffff;
+}
+
+.form-control:-moz-placeholder
+{
+   color: #ffffff;
+}
+
+.form-control::-moz-placeholder
+{
+   color: #ffffff;
+}
+
+.form-control:-ms-input-placeholder
+{
+   color: #ffffff;
+}
+
+/*********************************/
+/************ Others *************/
+/*********************************/
+.video-btns
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#controlBar_bgndVideo {
+    display: none !important;
+}
+
+.YTPOverlay.raster {
+    background: #000;
+    opacity: 0.2;
+}
+
+.version_theme
+{
+    margin-bottom: 20px;
+}
+
+.version_theme a
+{
+    display: block;
+}
+
+.version_theme a img
+{
+    max-width: 100%;
+}
+.version_theme a h2
+{
+    margin-bottom: 20px;
+}
+
+.section{ /*MUEVE LA FOTO DE LA POSICION*/
+    padding: 10px 0px;
+}
+
+#contact
+{
+    margin: 10px 0px;
+}
+
+#contact a:first-child
+{
+    margin-right: 20px;
+}
+
+/*********************************/
+/************ @media *************/
+/*********************************/
+@media (max-width:991px)
+{
+    .backgroundVideo body
+    {
+        /* Full background image because video can't autoplay on mobile & tablet devices */
+        background: url('../images/bg1.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .video-btns
+    {
+        position: relative;
+        top: 10px;
+        left: auto;
+        right: auto;
+
+        display: none;
+    }
+}
+@media (max-width:767px)
+{
+    h1.logo
+    {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    #countdown .countdown_group
+    {
+        padding: 0px 10px;
+    }
+
+    #countdown .countdown_group .countdown_value
+    {
+        font-size: 30px;
+    }
+
+    #footer p
+    {
+        font-size: 11px;
+    }
+
+    #about_us
+    {
+        padding: 20px 10px;
+    }
+
+    #about_us p
+    {
+        text-align: left;
+    }
+
+
+}
